@@ -1,10 +1,10 @@
-val1,val2,val3=input().split()
-val1=int(val1)
-val2=int(val2)
-val3=int(val3)
-if(val1>val2 and val1>val3):
-    print(val1)
-elif(val2>val3):
-    print(val2)
+va1,va2,va3=input().split()
+va1=int(va1)
+va2=int(va2)
+va3=int(va3)
+if(va1>va2 and va1>va3):
+    print(va1)
+elif(va2>va3):
+    print(va2)
 else:
-    print(val3)
+    print(va3)
