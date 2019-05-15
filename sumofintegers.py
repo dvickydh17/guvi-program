@@ -1,10 +1,10 @@
-no,k=input().split()
-no=int(no)
-k=int(k)
+N,K=input().split()
+N=int(N)
+K=int(K)
 list=input().split()
-sum=0
-counter=0
-while(counter<k):
-        sum=sum+int(lst[counter])
-        counter+=1
-print(sum)
+sm=0
+cr=0
+while(cr<K):
+        sm=sm+int(list[cr])
+        cr+=1
+print(sm)
