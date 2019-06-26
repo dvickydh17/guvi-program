@@ -1,10 +1,10 @@
-n=int(input())
-org=n
+N=int(input())
+org=N
 rev=0
-while(n>0):
-   rem=n%10
+while(N>0):
+   rem=N%10
    rev=rev*10+rem
-   n=n//10
+   N=nN//10
 if(org==rev):
    print("yes")
 else:
