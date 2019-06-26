@@ -4,7 +4,7 @@ rev=0
 while(N>0):
    rem=N%10
    rev=rev*10+rem
-   N=nN//10
+   N=N//10
 if(org==rev):
    print("yes")
 else:
